@@ -1,0 +1,17 @@
+
+--- Instalacion Mesa de Contratos ---
+@C:\Users\desierra\Desktop\SQL_JADM0067\QB_JADM0067_MESA_CONTRATOS;
+grant all on  rhu.FB_CORREO_EMPLEADO to public; 
+grant all on  rhu.FB_EMPLEADO_COLUMNA to public; 
+@C:\Users\desierra\Desktop\SQL_JADM0067\TADM0278.sql; 
+alter table rhu.libroIngreso_documento add 	"LDO_ESTADO_MESA" VARCHAR2(30 BYTE) DEFAULT 'SIN_VALIDAR';
+alter table rhu.libroIngreso_documento add 	"LDO_FIRMA_DOCUMENTO" VARCHAR2(30 BYTE) DEFAULT 'SIN_VALIDAR';
+grant all on estado_causal_libingreso to public; 
+grant all on FB_USUARIO_USUUSUARIO to public; 
+grant all on ACR.responsable_interno to public;
+@C:\Users\desierra\Desktop\SQL_JADM0067\FB_CAL_TIEM_FECHAS.sql
+GRANT ALL ON RHU.VALIDA_CTO_FIRMA TO PUBLIC;
+@C:\Users\desierra\Desktop\SQL_JADM0067\TADM0281.sql;
+@C:\Users\desierra\Desktop\SQL_JADM0067\TADM0280.sql;
+@C:\Users\desierra\Desktop\SQL_JADM0067\TADM0279.sql;
+
